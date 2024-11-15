@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunicação em Ação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start-container" id="startContainer">
+        <h1>Bem-vindo ao Comunicação em Ação!</h1>
+        <p>Insira seu nome para começar:</p>
+        <input type="text" id="username" placeholder="Seu nome" />
+        <button onclick="startGame()">Começar</button>
+    </div>
+
+    <div class="game-container" id="gameContainer" style="display: none;">
+        <h1>Comunicação em Ação</h1>
+        <p class="score">Pontuação: <span id="score">0</span></p>
+        <div class="message-area" id="messageArea">
+            <!-- Messages will be added here -->
+        </div>
+        <div class="feedback" id="feedback"></div>
+        <div class="options" id="options">
+            <!-- Options will be added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
