@@ -224,3 +224,18 @@ button:disabled {
     background: var(--secondary);
 }
 
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #888; /* Cor discreta */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Fundo leve */
+    border-top: 1px solid #ddd; /* Linha de separação */
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 400;
+}
+
